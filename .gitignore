@@ -1,0 +1,21 @@
+# Ignore all node_modules anywhere
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+**/.env
+
+# Logs
+*.log
+logs/
+
+# Build outputs
+dist/
+build/
+**/dist/
+**/build/
+
+# OS files
+.DS_Store
+Thumbs.db
